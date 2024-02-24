@@ -1,0 +1,30 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "login": "admin",
+        "password": "admin"
+      },
+      {
+        "id": 2,
+        "login": "naira",
+        "password": 12345
+      }
+    ],
+
+
+    "games": [
+      {
+        "id": 1,
+        "name": "The Sims",
+        "category": "Role Playing Game (RPG)",
+        "description": "Jogo de brincar de arquiteto, engenheiro e design de interiores"
+      },
+      {
+        "id": 2,
+        "name": "Super Mario",
+        "category": "Action",
+        "description": "Jogo do encanador que tem como objetivo salvar uma princesa, tem um parente, o luigi."
+      }
+    ]
+  }

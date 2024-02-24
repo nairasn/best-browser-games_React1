@@ -1,16 +1,33 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
 import {
-  createdBrowserRouter,
+  createBrowserRouter,
   RouterProvider,
-} from "react-router-dom"
+} from "react-router-dom";
 
-const router = createdBrowserRouter([
+import Home from './screens/home/Home';
+import Games from './screens/games';
+import Login from './screens/login';
+
+const router = createBrowserRouter([
   {
-    path:"/",
-    element: <div>Hello World!</div>
+    path: "/",
+    element: <Home />,
+    children:[
+      {
+        path:"/profile",
+        element: <h1>Profile</h1>
+      },
+      {
+        path:"/games",
+        element:<Games />
+      },
+    ],
+  },
+  {
+    path: "/login",
+    element: <Login />
   }
 ])
 
