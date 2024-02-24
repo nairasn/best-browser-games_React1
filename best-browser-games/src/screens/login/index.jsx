@@ -24,7 +24,8 @@ const Login = () => {
     event.preventDefault();
     console.log("Login >>>",formData);
 
-    fetch(`http://localhost:3000/users?login=${formData.login}`)
+    // fetch(`http://localhost:3000/users?login=${formData.login}`)
+    fetch(`http://localhost:3000/users?login=${formData.login}&password=${formData.password}`)
     .then((response) => response.json())
     .then((data) => {
       if (data.length > 0) {
@@ -36,13 +37,14 @@ const Login = () => {
       });
   }
 
-  return(
+  return (
     <main className='loginContainer'>
       <form onSubmit={handleSubmit}>
-        <label> Login :
+        <label> Login:
           <input 
             type="text" 
             name='login' 
+            placeholder='Login'
             value={formData.login} 
             onChange={handleChange}
           />
@@ -51,16 +53,17 @@ const Login = () => {
           <input 
             type="password" 
             name='password'
+            placeholder='Enter password'
             value={formData.password} 
             onChange={handleChange}
           />
         </label>
-
-        <button className='buttonContainer' type='submit'>Login</button>
+  
+        <button type='submit'>Login</button>
+        <button onClick={handleClick}>Voltar</button>
       </form>
-      <button onClick={handleClick}>Voltar</button>
     </main>
-  )
+  );
 }
 
 export default Login

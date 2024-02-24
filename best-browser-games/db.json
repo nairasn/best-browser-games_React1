@@ -25,6 +25,42 @@
         "name": "Super Mario",
         "category": "Action",
         "description": "Jogo do encanador que tem como objetivo salvar uma princesa, tem um parente, o luigi."
+      },
+      {
+        "id": 3,
+        "name": "Wordle",
+        "category": "Puzzle",
+        "description": "Wordle é um jogo online de quebra-cabeça e palavras onde você deve adivinhar uma palavra secreta de cinco letras em seis tentativas."
+      },
+      {
+        "id": 4,
+        "name": "Krunker.io",
+        "category": "Shooter",
+        "description": "Entre em ação como um atirador e enfrente jogadores de todo o mundo em diversos modos de jogo."
+      },
+      {
+        "id": 5,
+        "name": "Pac-Man",
+        "category": "Arcade",
+        "description": "PacMan, também conhecido como come-come, foi um dos primeiros jogos desenvolvidos para computadores."
+      },
+      {
+        "id": 6,
+        "name": "2048",
+        "category": "Strategy",
+        "description": "Seu objetivo é juntar os blocos numerados na tela até atingir o número 2048"
+      },
+      {
+        "id": 7,
+        "name": "Football Heads Brazil",
+        "category": "Sport",
+        "description": "Vença partidas de futebol de cabeça com os times do Brasileirão! "
+      },
+      {
+        "id": 8,
+        "name": "Moto Road Rash 3D",
+        "category": "Adventure",
+        "description": "Dirija pelas ruas movimentadas a alta velocidade.Evite os outros motoristas enquanto explora os modos disponíveis."
       }
     ]
   }

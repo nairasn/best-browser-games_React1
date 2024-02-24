@@ -4,7 +4,6 @@ import './styles.css';
 const Header = () => {
     return(
         <header className='headerContainer'>
-            Cabeçalho
             <nav>
                 <ul className='navList'>
                     <li><NavLink to="/profile">Perfil</NavLink></li>

@@ -1,7 +1,7 @@
 .headerContainer{
-    height: 50px;
-    width: 500px;
-    background-color:palevioletred;
+    height: 60px;
+    background-color:#e546ab;
+    border-radius: 5px;
 }
 
 .headerContainer nav{
@@ -11,6 +11,20 @@
 .navList{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
+    justify-content:space-around;
+    margin: 15px;
+}
+
+.navList a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.navList a:hover{
+    background-color: #fff;
+    color: #e546ab;
+    padding: 5px 50px;
+    border-radius: 7.5px;
 }

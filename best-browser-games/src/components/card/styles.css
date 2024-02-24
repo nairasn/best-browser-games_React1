@@ -1,11 +1,37 @@
-.cardContainer {
-    height: 100px;
-    width: 100px;
-    background-color:blueviolet;
-    color: white;
+  .cardContainer {
+    width: 230px;
+    height: 200px;
+    margin: 5px;
+    background: linear-gradient(to right,#F5f5f5,#fff); 
+    /* background-color: #fff; */
     display: flex;
     flex-direction: column;
-    border: 2px solid plum;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
     border-radius: 8px;
-    margin: 8px;
+    padding: 20px;
+  }
+
+ .cardContainer label {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #828fa1;
+    z-index: 2;
+  }
+      
+  .cardContainer h4 {
+    padding: 5px 5px;
+    background-color: #e546ab;
+    border-radius: 10px;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 2;
+  }
+
+  .cardContainer p {
+    font-size: 0.9em;
+    color: #444b56;
   }

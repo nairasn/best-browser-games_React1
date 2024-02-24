@@ -9,6 +9,7 @@ import {
 import Home from './screens/home/Home';
 import Games from './screens/games';
 import Login from './screens/login';
+import Profile from './screens/profile';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/profile",
-        element: <h1>Profile</h1>
+        element: <Profile />
       },
       {
         path:"/games",
